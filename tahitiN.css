@@ -20,8 +20,13 @@
     background-color:rgb(143, 50, 50);
     color: rgb(255, 255, 255);
     z-index: 10;
-    position: fixed
+    position: fixed;
+    
+    &:hover {
+        text-decoration: underline;
+    }
 }
+
 
 .q1 {
     margin-top: 110px;

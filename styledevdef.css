@@ -85,7 +85,11 @@ td {
     background-color:rgb(84, 90, 138);
     color: rgb(255, 255, 255);
     z-index: 10;
-    position: fixed
+    position: fixed;
+    
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .align-mid {

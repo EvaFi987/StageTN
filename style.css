@@ -1,0 +1,163 @@
+.banniere-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/ppt1.jpg");
+  position: fixed;
+  width: 100%;
+  height: 180px;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.texte {
+  text-align: center;
+  color: white;
+}
+
+.shadow {
+  text-shadow: 2px 2px 7px black;
+}
+
+.button1 {
+  border: 0px solid;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(84, 90, 138);
+  color: white;
+  box-shadow: 5px 5px rgb(54, 59, 95);
+  font-size: 25px;
+  width: 450px;
+}
+
+.button2 {
+  border: 0px solid;
+  text-decoration: none;
+  padding: 5px;
+  background-color: rgb(143, 50, 50);
+  color: white;
+  box-shadow: 5px 5px rgb(93, 30, 30);
+  font-size: 25px;
+  margin-top: 50px;
+  width: 450px;
+}
+
+.button3 {
+  border: 0px solid;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(154, 154, 154);
+  color: white;
+  box-shadow: 5px 5px rgb(84, 84, 84);
+  font-size: 25px;
+  width: 450px;
+  margin-top: 50px;
+
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button3:hover span {
+  padding-right: 25px;
+}
+
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.ldc {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 150px;
+  color: rgb(154, 154, 154);
+}
+
+.mrc {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 300px;
+  color: rgb(116, 116, 116);
+  border: 2px solid;
+  border-color: rgb(71, 71, 71);
+  padding: 10px;
+  width: 900px;
+  /* margin-left: 200px; */
+  border-radius: 20px;
+  box-shadow: 5px 5px rgb(116, 116, 116);
+}
